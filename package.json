@@ -1,0 +1,36 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^5.4.2",
+    "solid-devtools": "^0.29.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.4.1",
+    "vite-plugin-cross-origin-isolation": "^0.1.6",
+    "vite-plugin-solid": "^2.10.2"
+  },
+  "dependencies": {
+    "@lightningjs/l3-ui-theme-base": "^0.3.3",
+    "@lightningjs/renderer": "^1.0.1",
+    "@lightningtv/core": "^1.4.1",
+    "@lightningtv/solid": "^1.5.0",
+    "@lightningtv/solid-ui": "^0.24.0",
+    "@lightningtv/vite-hex-transform": "^1.1.0",
+    "@solid-primitives/scheduled": "^1.4.3",
+    "solid-js": "^1.8.21"
+  },
+  "pnpm": {
+    "overrides": {
+      "@lightningtv/core": "$@lightningtv/core"
+    }
+  }
+}
